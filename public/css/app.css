@@ -1,3 +1,30 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #3f3f50;
+  margin: 0;
+  display: flex;
+}
+
+#flatidiv {
+  color: white;
+}
+
+#navright {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+  margin-left: 300px;
+}
+
+#navright > a {
+  text-decoration: none;
+  color: white;
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
