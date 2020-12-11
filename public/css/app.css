@@ -1,84 +1,3 @@
-body {
-  margin: 0;
-  font-family: roboto;
-}
-
-nav {
-  background-color: #3f3f50;
-  margin: 0;
-  display: flex;
-}
-
-#flatidiv {
-  color: white;
-  width: 200px;
-  margin-left: 300px;
-  margin-top: 10px;
-}
-
-#navright {
-  display: flex;
-  align-items: center;
-  width: 600px;
-  justify-content: space-between;
-  margin-left: 200px;
-  padding-top: 20px;
-}
-
-.linknav {
-  text-decoration: none;
-  color: white;
-}
-
-.divlink {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  border-radius: 2px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.divlink:hover {
-  background-color: blue;
-}
-
-#sectionunbeige {
-  background-color: beige;
-  height: 300px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#h1citation {
-  width: 900px;
-  text-align: center;
-  margin: auto;
-  padding-top: 50px;
-  font-size: 35px;
-}
-
-#programmers {
-  color: white;
-  background-color: blue;
-}
-
-#complexity {
-  color: blue;
-}
-
-#simplicity {
-  font-family: robotobold;
-}
-
-#h1buzz {
-  text-align: center;
-  margin: auto;
-  padding-top: 50px;
-  font-size: 35px;
-}
-
 @font-face {
   font-family: "roboto";
   src: url("../font/Roboto-Regular.ttf");
@@ -6211,4 +6130,127 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+nav {
+  background-color: #3f3f50;
+  margin: 0;
+  display: flex;
+}
+
+#flatidiv {
+  color: white;
+  width: 200px;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+#navright {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+  margin-left: 200px;
+  padding-top: 20px;
+}
+
+.linknav {
+  text-decoration: none;
+  color: white;
+}
+
+.divlink {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.divlink:hover {
+  background-color: blue;
+}
+
+#imgblack > img {
+  width: 100%;
+  height: 20%;
+}
+
+#h1citation {
+  width: 900px;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 35px;
+}
+
+#programmers {
+  color: white;
+  background-color: blue;
+}
+
+#complexity {
+  color: blue;
+}
+
+#simplicity {
+  font-family: robotobold;
+}
+
+#h1buzz {
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 35px;
+}
+
+#sectionquatuor {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+}
+
+.quatuorcard {
+  background-color: grey;
+  text-align: center;
+}
+
+.iconquatuor {
+  color: blue;
+  font-size: 35px;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#iconpencil {
+  margin-top: 20px;
+}
+
+#iconumbrella {
+  margin-top: 20px;
+}
+
+#iconflask {
+  margin-top: 20px;
+}
+
+#iconfb {
+  margin-top: 20px;
+}
+
+.quatuorcard > p {
+  width: 320px;
 }
