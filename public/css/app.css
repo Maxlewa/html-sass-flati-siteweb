@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: roboto;
 }
 
 nav {
@@ -10,6 +11,9 @@ nav {
 
 #flatidiv {
   color: white;
+  width: 200px;
+  margin-left: 300px;
+  margin-top: 10px;
 }
 
 #navright {
@@ -17,12 +21,72 @@ nav {
   align-items: center;
   width: 600px;
   justify-content: space-between;
-  margin-left: 300px;
+  margin-left: 200px;
+  padding-top: 20px;
 }
 
-#navright > a {
+.linknav {
   text-decoration: none;
   color: white;
+}
+
+.divlink {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.divlink:hover {
+  background-color: blue;
+}
+
+#sectionunbeige {
+  background-color: beige;
+  height: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#h1citation {
+  width: 900px;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 35px;
+}
+
+#programmers {
+  color: white;
+  background-color: blue;
+}
+
+#complexity {
+  color: blue;
+}
+
+#simplicity {
+  font-family: robotobold;
+}
+
+#h1buzz {
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 35px;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("../font/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "robotobold";
+  src: url("../font/Roboto-Bold.ttf");
 }
 
 /*!
