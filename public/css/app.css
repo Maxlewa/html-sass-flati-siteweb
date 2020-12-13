@@ -6183,6 +6183,13 @@ nav {
   height: 20%;
 }
 
+#sectionunbeige {
+  background-color: lightgray;
+  height: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 #h1citation {
   width: 900px;
   text-align: center;
@@ -6213,26 +6220,28 @@ nav {
 
 #sectionquatuor {
   display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
   justify-content: space-between;
 }
 
 .quatuorcard {
-  background-color: grey;
+  background-color: lightgray;
   text-align: center;
 }
 
 .iconquatuor {
   color: blue;
-  font-size: 35px;
-  width: 80px;
-  height: 80px;
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
   align-items: center;
   text-align: center;
   margin: auto;
   background-color: white;
   border-radius: 50%;
+  margin-top: 20px;
 }
 
 #iconpencil {
@@ -6252,5 +6261,106 @@ nav {
 }
 
 .quatuorcard > p {
-  width: 320px;
+  width: 270px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#lastsection {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 80px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#recentwork {
+  width: 500px;
+  padding-right: 30px;
+  margin-right: 100px;
+}
+
+#recentwork > button {
+  background-color: blue;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#troiscartesdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cartecatalogue {
+  color: white;
+  background-color: blue;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+#carteloupe {
+  color: white;
+  background-color: blue;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+#carterocket {
+  color: white;
+  background-color: blue;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.carteimg > img {
+  width: 100%;
+}
+
+.cartebluebg {
+  text-align: center;
+}
+
+.cartebluebg > p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#getintouch {
+  background-color: lightblue;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+#getintouch > h1 {
+  text-align: center;
+  color: grey;
+}
+
+#getintouch > p {
+  text-align: center;
+  margin: auto;
+  width: 900px;
+}
+
+#footericons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: auto;
+  font-size: 30px;
+}
+
+#footericons > a {
+  text-decoration: none;
+  color: grey;
+}
+
+#copyright {
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
