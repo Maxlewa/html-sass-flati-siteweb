@@ -6176,6 +6176,8 @@ nav {
 
 .divlink:hover {
   background-color: blue;
+  border-top-left-radius: 8%;
+  border-top-right-radius: 8%;
 }
 
 #imgblack > img {
